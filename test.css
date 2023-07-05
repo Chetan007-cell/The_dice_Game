@@ -1,0 +1,24 @@
+body{
+    color: rgba(0, 0, 0, 0.731);
+    background-color: rgb(211, 233, 252) ;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.x{
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.box{
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    width: 200px;
+}
